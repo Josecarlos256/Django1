@@ -1,5 +1,5 @@
 from django.forms.forms import Form
-from django.shortcuts import render
+from django.shortcuts import redirect, render
 from django.utils import timezone
 from .models import Post
 from .forms import PostForm
